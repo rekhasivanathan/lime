@@ -1,0 +1,344 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-08T04:49:07.560Z",
+        "line": 5,
+        "name": "user able to click on shop men",
+        "description": "",
+        "id": "limeroad-order;user-able-to-click-on-shop-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1655059200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user able to launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_launch_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6180121200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user able to click on shop men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_shop_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 871156800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to mousehover men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_mousehover_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837557100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user able to click kurtas under ethnic wear section",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_kurtas_under_ethnic_wear_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130734100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user able to click the first product",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_the_first_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353630200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user able to select the size",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_select_the_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269820500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user able to click on add to cart button",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620091900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User able to close the browser",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-08T04:49:21.695Z",
+        "line": 16,
+        "name": "user able to click on shop men",
+        "description": "",
+        "id": "limeroad-order;user-able-to-click-on-shop-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-LSDS11E\u0027, ip: \u0027192.168.43.78\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat com.baseelime.New_Baselime.Base_class.launchUrl(Base_class.java:55)\r\n\tat com.Step_Definition.StepDefinition_class.user_able_to_launch_the_url(StepDefinition_class.java:29)\r\n\tat ✽.user able to launch the url \"https://www.limeroad.com/\"(file:///C:/Users/admin/eclipse-workspace/selenium/New_Baselime/src/test/java/com/feature/lime.feature:17)\r\n",
+              "duration": 2991800,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user able to launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_launch_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user able to click on shop men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_shop_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user able to mousehover men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_mousehover_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user able to click ethnic wear sets under ethnic wear section",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_ethnic_wear_sets_under_ethnic_wear_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user able to click the second product",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_the_second_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user able to select the size",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_select_the_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user able to click on add to cart button",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2990900,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User able to close the browser",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-08T04:49:21.755Z",
+        "line": 29,
+        "name": "user able to click on shop men",
+        "description": "",
+        "id": "limeroad-order;user-able-to-click-on-shop-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-LSDS11E\u0027, ip: \u0027192.168.43.78\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat com.baseelime.New_Baselime.Base_class.launchUrl(Base_class.java:55)\r\n\tat com.Step_Definition.StepDefinition_class.user_able_to_launch_the_url(StepDefinition_class.java:29)\r\n\tat ✽.user able to launch the url \"https://www.limeroad.com/\"(file:///C:/Users/admin/eclipse-workspace/selenium/New_Baselime/src/test/java/com/feature/lime.feature:30)\r\n",
+              "duration": 997100,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "user able to launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_launch_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user able to click on shop men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_shop_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user able to mousehover men",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_mousehover_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user able to click nehru jackets under ethnic wear section",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_nehru_jackets_under_ethnic_wear_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user able to click the third product",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_the_third_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user able to select the size",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_select_the_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user able to click on add to cart button",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User able to close the browser",
+            "match": {
+              "location": "com.Step_Definition.StepDefinition_class.user_able_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "limeroad order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/lime.feature",
+    "tags": []
+  }
+]
